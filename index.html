@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rent a Unicorn – Magical Moments Await</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #f9f6ff, #e0c3fc);
+      color: #4b0082;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: #fff0f5;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
+    }
+
+    h2 {
+      color: #ba55d3;
+    }
+
+    .price {
+      font-size: 1.5em;
+      color: #ff69b4;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea, select {
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid #dda0dd;
+      border-radius: 10px;
+      font-size: 1em;
+    }
+
+    button {
+      padding: 12px;
+      background: #ffb6c1;
+      color: #4b0082;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #fff0f5;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🦄 Rent a Unicorn</h1>
+    <p>Bring sparkle and joy to your special events</p>
+  </header>
+
+  <div class="container">
+    <h2>Why Rent a Unicorn?</h2>
+    <p>Our trained, friendly unicorns are perfect for birthdays, weddings, parades, and any magical occasion. Each unicorn comes with a glitter handler and customizable flower crown.</p>
+
+    <h2>Pricing</h2>
+    <p class="price">Starting at $299 per hour</p>
+
+    <h2>Book Your Unicorn</h2>
+    <form action="/submit-booking" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="event">Event Type:</label>
+      <select id="event" name="event">
+        <option>Birthday Party</option>
+        <option>Wedding</option>
+        <option>Parade</option>
+        <option>Photoshoot</option>
+      </select>
+
+      <label for="date">Event Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="message">Additional Details:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">🦄 Reserve Now</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Rent a Unicorn – Powered by Magic & Rainbows<br/>
+    Contact: sparkle@licorn-rent.com
+  </footer>
+
+</body>
+</html>
+```
+
+---
+
+Want me to make this responsive, or add animations, a unicorn image gallery, or a backend to handle bookings? I can help with that too!
